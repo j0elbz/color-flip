@@ -1,0 +1,53 @@
+body{
+    transition: 1s;
+}
+
+body div{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+
+    
+}
+
+body div h3{
+    position: relative;
+    right: 70%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0 0 3px black;
+
+
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px 3px 3px #000000;
+    right: 25%;
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+
+
+
+button:active {
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
